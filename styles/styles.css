@@ -7,3 +7,141 @@
   --paragraph-color-dark: #000000;
   --soft-cyan: #5ec0be;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1260px;
+  padding: 2.5rem;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-sign-discount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-blue);
+  color: white;
+  font-size: 1.4rem;
+  padding: 10px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.header-sign-discount span:first-child {
+  background-color: #6220c1;
+  padding: 0.2rem 0.4rem;
+  margin-left: 0.2rem;
+  border-radius: 4px;
+}
+.header-sign-discount span:last-child {
+  font-style: italic;
+  font-weight: normal;
+}
+
+.header-logo-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+}
+
+.header-search {
+  flex: 1;
+  padding: 1.7rem;
+}
+
+.header-search-input-field {
+  width: 80%;
+  padding: 0.5rem;
+  border: 1px solid var(--dark-gray);
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-start;
+  padding: 1rem;
+}
+
+.header-search-input-field input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.header-search-input-field:last-child {
+  cursor: pointer;
+}
+
+.header-search-account {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-search-account-user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.4rem;
+}
+
+.menu {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  padding: 1.7rem; */
+}
+
+.section-hero {
+  background-color: #e7e7ea;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+}
+.section-hero-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  /* padding: 2.5rem; */
+  width: 100%;
+  max-width: 1260px;
+}
+
+.section-hero-content img {
+  mix-blend-mode: darken;
+}
+.section-hero-content-text {
+  text-align: center;
+}
+.section-hero-content-text h1 {
+  font-size: 10rem;
+  color: var(--paragraph-color-dark);
+}
+.section-hero-content-text span {
+  font-weight: lighter;
+}
+.section-hero-content-text p,
+.section-hero-content-text h2 {
+  font-size: 2.5rem;
+  color: var(--primary-blue);
+  font-weight: bold;
+}
+
+.section-hero-content-text h2 {
+  font-size: 6rem;
+}

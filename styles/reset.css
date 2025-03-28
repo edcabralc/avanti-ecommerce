@@ -5,12 +5,14 @@
 }
 * {
   margin: 0;
-  font-family: "Inter", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
 }
 
 html,
 body {
   height: 100%;
+  font-size: 10px;
 }
 body {
   line-height: 1.5;
